@@ -85,6 +85,6 @@ def xml():
     except:
         app.logger.error("Error with XML.")
         return return_error('''Error with XML. Please refresh and try again. If this error persists,
-            please contact support.''')
+            please contact support. ''')
 if __name__ == "__main__":
     app.run()
